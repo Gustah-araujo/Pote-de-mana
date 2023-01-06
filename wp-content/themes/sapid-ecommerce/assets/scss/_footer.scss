@@ -1,0 +1,223 @@
+/*************/
+/* General Listing*/
+/*************/
+.general-listing {
+    padding: 0px;
+    margin: 0px;
+
+    li {
+        list-style: none;
+
+        a {
+            color: #fff;
+            display: flex;
+            padding: 8px 0;
+            transition: 0.2s ease-in;
+            // align-items: center;
+        }
+
+        &:hover {
+            a {
+                padding-left: 10px;
+            }
+        }
+
+        i {
+            margin-right: 7px;
+            margin-left: 7px;
+            font-size: 18px !important;
+        }
+    }
+}
+
+.dblue {
+    li {
+        a {
+            color: $text-dblue !important;
+        }
+    }
+}
+
+.general-listing {
+    &.two-part {
+        li {
+            width: 49%;
+            display: inline-block;
+        }
+    }
+}
+
+.general-listing {
+    &.only-li {
+        li {
+            padding: 5px 0;
+        }
+    }
+}
+
+.f3-middle {
+    .thumb {
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 992px) {
+    footer {
+        .main-logo {
+            width: 150px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .general-listing.two-part li {
+        width: 100%;
+    }
+
+    .f1-bottom-bar {
+        .copyright_text {
+            font-size: 12px;
+        }
+    }
+}
+
+.footer5 {
+    .form-control {
+        background: #ffffff;
+    }
+
+    .social-links {
+        margin: 20px 0;
+
+        a {
+            color: #8d97ad;
+            opacity: 0.5;
+            padding: 0 15px 0 0;
+
+            &:hover {
+                color: #316ce8;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.f1-middle {
+    .mdi {
+        font-size: 26px;
+    }
+}
+
+.f3-middle {
+    .mdi {
+        font-size: 26px;
+    }
+}
+
+.f3-bottom-bar {
+    .mdi {
+        font-size: 26px;
+    }
+}
+
+.footer5 {
+    .mdi {
+        font-size: 26px;
+    }
+}
+
+
+.main-foot {
+    margin-bottom: 15px;
+
+    .para {
+        margin-top: 10px;
+        text-align: justify;
+    }
+
+    p {
+        color: $white !important;
+    }
+
+    .main-foot-gap {
+        a {
+            i {
+                color: $white;
+                font-size: 28px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .d-flex {
+        padding: 8px 0 !important;
+        border-bottom: 1px solid rgb(255 255 255 / 27%) !important;
+
+        &.border-0 {
+            border: none !important;
+        }
+
+        .display-7 {
+            margin-right: 20px;
+
+            i {
+                color: $white;
+            }
+        }
+
+        .info {
+            span {
+                color: $white;
+            }
+
+            p {
+                color: $white !important;
+            }
+
+            a {
+                color: $white;
+            }
+        }
+    }
+
+    .subscribe-box {
+        .display-4 {
+            i {
+                color: $white;
+            }
+        }
+
+        p {
+            color: $white;
+        }
+
+        form {
+            a {
+                margin-top: 1rem;
+                ;
+                padding-bottom: 0.5rem;
+                padding-top: 0.5rem;
+            }
+        }
+    }
+}
+
+.foot-5 {
+    margin-bottom: 30px;
+
+    .d-flex {
+        .display-7 {
+            margin-right: 20px;
+
+            i {
+                color: $text-dblue;
+            }
+        }
+
+        .info {
+            a {
+                color: $text-dblue;
+            }
+        }
+    }
+}

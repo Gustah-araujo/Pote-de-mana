@@ -1,0 +1,1876 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-11-30 10:12+0530\n"
+"PO-Revision-Date: 2022-11-30 10:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html__;esc_att;esc_attr__;"
+"esc_attr_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+msgid "Oops, This Page Could Not Be Found!"
+msgstr ""
+
+#: 404.php:21
+msgid "Search Our Website"
+msgstr ""
+
+#: 404.php:22
+msgid "Can't find what you need? Take a moment and do a search below!"
+msgstr ""
+
+#: comments.php:31
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:31
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:41
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:50
+msgid "Name (required)"
+msgstr ""
+
+#: comments.php:50 woocommerce/single-product-reviews.php:89
+msgid "Name"
+msgstr ""
+
+#: comments.php:51
+msgid "Email (required)"
+msgstr ""
+
+#: comments.php:51 includes/option/social_media.php:103
+#: woocommerce/single-product-reviews.php:95
+msgid "Email"
+msgstr ""
+
+#: comments.php:59
+msgid "Website"
+msgstr ""
+
+#: comments.php:59
+msgid "URL"
+msgstr ""
+
+#: comments.php:61
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: comments.php:66
+msgid "Comment..."
+msgstr ""
+
+#: comments.php:67 comments.php:68
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:72
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: comments.php:74
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr ""
+
+#: comments.php:74
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:79
+msgid "Post Comment"
+msgstr ""
+
+#: includes/class-sapid-main.php:92
+msgid "Primary Menu"
+msgstr ""
+
+#: includes/class-sapid-main.php:93
+msgid "Top Menu"
+msgstr ""
+
+#: includes/class-sapid-post-types.php:296
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-sapid-woocommerce.php:104
+#: includes/class-sapid-woocommerce.php:133 includes/option/woocommerce.php:109
+msgid "Out of stock"
+msgstr ""
+
+#: includes/class-sapid-woocommerce.php:116 includes/option/woocommerce.php:95
+msgid "Sale!"
+msgstr ""
+
+#: includes/class-sapid-woocommerce.php:149
+msgid "Add to Cart"
+msgstr ""
+
+#: includes/class-sapid-woocommerce.php:159
+msgid "View cart"
+msgstr ""
+
+#: includes/class-sapid-woocommerce.php:163
+msgid "Checkout"
+msgstr ""
+
+#: includes/class-sapid-woocommerce.php:172
+#: woocommerce/checkout/thankyou.php:36
+msgid "My account"
+msgstr ""
+
+#: includes/class-sapid-woocommerce.php:173
+msgid "Account Login / Register"
+msgstr ""
+
+#: includes/class-sapid.php:150 includes/class-sapid.php:151
+msgid "Sapid"
+msgstr ""
+
+#: includes/class-sapid.php:611
+msgid "On"
+msgstr ""
+
+#: includes/class-sapid.php:612
+msgid "Off"
+msgstr ""
+
+#: includes/class-sapid.php:734 includes/class-sapid.php:739
+msgid "Upload"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:325
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:326
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:328
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:331
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:383
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:384
+#: includes/class-tgm-plugin-activation.php:849
+#: includes/class-tgm-plugin-activation.php:2555
+#: includes/class-tgm-plugin-activation.php:3602
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:385
+#: includes/class-tgm-plugin-activation.php:3181
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:386
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:388
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:390
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:393
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:394
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:395
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:536
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:537
+msgid "Update Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:654
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:956
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:956
+#: includes/class-tgm-plugin-activation.php:959
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:959
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2004
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2295
+msgid "Required"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2298
+msgid "Recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2314
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2317
+msgid "External Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2320
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2337
+msgid "Not Installed"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2341
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2343
+msgid "Active"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2349
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2352
+msgid "Requires Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2355
+msgid "Update recommended"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2512
+msgid "Installed version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2520
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2532
+msgid "Available version:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2555
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2569
+msgid "Plugin"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2570
+msgid "Source"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2571
+msgid "Type"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2575
+msgid "Version"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2576
+msgid "Status"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2625
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2630
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2636
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2706
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2739
+msgid "Install"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2745
+msgid "Update"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2748
+msgid "Activate"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2779
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2781
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2822
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2824
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2930
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:2956
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3180
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3523
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3525
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3529
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3531
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3531
+#: includes/class-tgm-plugin-activation.php:3539
+msgid "Show Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3531
+#: includes/class-tgm-plugin-activation.php:3539
+msgid "Hide Details"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3532
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3534
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3537
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3539
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3540
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/class-tgm-plugin-activation.php:3542
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/inc/sapid-function.php:166
+msgid "My Account"
+msgstr ""
+
+#: includes/inc/sapid-function.php:168
+msgid "Sign In"
+msgstr ""
+
+#: includes/inc/sapid-function.php:559
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/inc/sapid-function.php:564
+msgid " - Edit"
+msgstr ""
+
+#: includes/inc/sapid-function.php:570
+msgid " - Reply"
+msgstr ""
+
+#: includes/inc/sapid-function.php:581
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/inc/sapid-function.php:689
+msgid "Home"
+msgstr ""
+
+#: includes/inc/sapid-function.php:886 template-parts/content-page.php:22
+#: template-parts/content-single.php:74
+msgid "Page"
+msgstr ""
+
+#: includes/inc/sapid-function.php:972 woocommerce/loop/pagination.php:53
+#: woocommerce/myaccount/orders.php:89
+msgid "Previous"
+msgstr ""
+
+#: includes/inc/sapid-function.php:1018 woocommerce/loop/pagination.php:54
+#: woocommerce/myaccount/orders.php:93
+msgid "Next"
+msgstr ""
+
+#: includes/inc/sapid-sidebar.php:39
+msgid "Sidebar 1"
+msgstr ""
+
+#: includes/inc/sapid-sidebar.php:41 includes/inc/sapid-sidebar.php:51
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: includes/inc/sapid-sidebar.php:49
+msgid "Sidebar 2"
+msgstr ""
+
+#: includes/inc/sapid-sidebar.php:59
+msgid "Footer 1"
+msgstr ""
+
+#: includes/inc/sapid-sidebar.php:68
+msgid "Footer 2"
+msgstr ""
+
+#: includes/inc/sapid-sidebar.php:77
+msgid "Footer 3"
+msgstr ""
+
+#: includes/inc/sapid-sidebar.php:87
+msgid "Footer 4"
+msgstr ""
+
+#: includes/inc/sapid-tgm.php:32
+msgid "Woocommerce"
+msgstr ""
+
+#: includes/inc/sapid-tgm.php:39
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/inc/sapid-tgm.php:46
+msgid "Classic Editor"
+msgstr ""
+
+#: includes/inc/sapid-tgm.php:52
+msgid "Classic Widgets"
+msgstr ""
+
+#: includes/inc/sapid-tgm.php:58
+msgid "Email Subscribers & Newsletters"
+msgstr ""
+
+#: includes/inc/templates/logo.php:46
+msgid "Logo"
+msgstr ""
+
+#: includes/inc/widget/sapid-footer-contact.php:10
+msgid "Sapid Contact"
+msgstr ""
+
+#: includes/inc/widget/sapid-footer-contact.php:11
+msgid "Sapid Contact Description"
+msgstr ""
+
+#: includes/inc/widget/sapid-footer-contact.php:101
+#: includes/inc/widget/sapid-footer-logo.php:42
+#: includes/inc/widget/sapid-nav-menu.php:153
+#: includes/inc/widget/sapid-recent-posts.php:107
+#: includes/inc/widget/sapid-social-icon.php:59
+msgid "Title:"
+msgstr ""
+
+#: includes/inc/widget/sapid-footer-contact.php:105
+msgid "Hide Icon:"
+msgstr ""
+
+#: includes/inc/widget/sapid-footer-contact.php:121
+msgid "Hide Address:"
+msgstr ""
+
+#: includes/inc/widget/sapid-footer-contact.php:125
+msgid "Hide Email Address:"
+msgstr ""
+
+#: includes/inc/widget/sapid-footer-contact.php:129
+msgid "Hide Phone Number:"
+msgstr ""
+
+#: includes/inc/widget/sapid-footer-contact.php:133
+msgid "Hide Clock Timing:"
+msgstr ""
+
+#: includes/inc/widget/sapid-footer-logo.php:10
+msgid "Sapid Logo"
+msgstr ""
+
+#: includes/inc/widget/sapid-footer-logo.php:11
+msgid "Sapid Logo Description"
+msgstr ""
+
+#: includes/inc/widget/sapid-nav-menu.php:10
+msgid "Sapid Navigation Menu"
+msgstr ""
+
+#: includes/inc/widget/sapid-nav-menu.php:11
+msgid "Sapid Navigation Menu Description"
+msgstr ""
+
+#: includes/inc/widget/sapid-nav-menu.php:35
+msgid "Menu"
+msgstr ""
+
+#: includes/inc/widget/sapid-nav-menu.php:148
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: includes/inc/widget/sapid-nav-menu.php:157
+msgid "Select Menu:"
+msgstr ""
+
+#: includes/inc/widget/sapid-nav-menu.php:159
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: includes/inc/widget/sapid-nav-menu.php:169
+msgid "Edit Menu"
+msgstr ""
+
+#: includes/inc/widget/sapid-recent-posts.php:10
+msgid "Sapid Recent Posts"
+msgstr ""
+
+#: includes/inc/widget/sapid-recent-posts.php:11
+msgid "Sapid Recent Posts Description"
+msgstr ""
+
+#: includes/inc/widget/sapid-recent-posts.php:111
+msgid "Post Type:"
+msgstr ""
+
+#: includes/inc/widget/sapid-recent-posts.php:127
+msgid "Order:"
+msgstr ""
+
+#: includes/inc/widget/sapid-recent-posts.php:141
+msgid "Order By:"
+msgstr ""
+
+#: includes/inc/widget/sapid-recent-posts.php:159
+msgid "Show Date:"
+msgstr ""
+
+#: includes/inc/widget/sapid-recent-posts.php:163
+msgid "Show Thumbnail:"
+msgstr ""
+
+#: includes/inc/widget/sapid-social-icon.php:10
+msgid "Sapid Social Icon"
+msgstr ""
+
+#: includes/inc/widget/sapid-social-icon.php:11
+msgid "Sapid Social Icon Description"
+msgstr ""
+
+#: includes/inc/widget/sapid-social-icon.php:63
+msgid "Main Div Class:"
+msgstr ""
+
+#: includes/option/blog.php:11
+msgid "Blog"
+msgstr ""
+
+#: includes/option/blog.php:16
+msgid "Number of Columns in a Category/ Blog Archive"
+msgstr ""
+
+#: includes/option/blog.php:17
+msgid "For blog archive pages, select the number of columns per row."
+msgstr ""
+
+#: includes/option/blog.php:28
+msgid "Excerpt Display "
+msgstr ""
+
+#: includes/option/blog.php:29
+msgid ""
+"Manage whether or not the blog excerpt appears for the specified blog page."
+msgstr ""
+
+#: includes/option/blog.php:35
+msgid "General Blog Meta"
+msgstr ""
+
+#: includes/option/blog.php:36
+msgid "Make post meta visible by turning it on."
+msgstr ""
+
+#: includes/option/blog.php:42
+msgid "Single Blog"
+msgstr ""
+
+#: includes/option/blog.php:49
+msgid "Previous/Next Pagination"
+msgstr ""
+
+#: includes/option/blog.php:50
+msgid "Enable to display earlier and next posts pagination for a blog post."
+msgstr ""
+
+#: includes/option/blog.php:56
+msgid "Social Sharing Box"
+msgstr ""
+
+#: includes/option/blog.php:57
+msgid "Enable social sharing box visible."
+msgstr ""
+
+#: includes/option/blog.php:63
+msgid "Blog Meta"
+msgstr ""
+
+#: includes/option/blog.php:64
+msgid "Enable to make post meta visible."
+msgstr ""
+
+#: includes/option/breadcrumbs.php:11 includes/option/breadcrumbs.php:17
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/option/breadcrumbs.php:18
+msgid "Turn it on to display Breadcrumbs"
+msgstr ""
+
+#: includes/option/breadcrumbs.php:24
+msgid "Breadcrumbs Separator"
+msgstr ""
+
+#: includes/option/breadcrumbs.php:25
+msgid "Manage the type of separator used between each breadcrumb."
+msgstr ""
+
+#: includes/option/custom_css.php:11
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/option/custom_css.php:17
+msgid "CSS Code"
+msgstr ""
+
+#: includes/option/custom_css.php:19
+msgid ""
+"In the area below, enter your CSS code. There should be no tags or HTML in "
+"this field. The theme CSS will be overridden if custom CSS is set here! "
+"Crucial tag may be required. Images and SVG routes should not be URL "
+"encoded. This field's contents will be automatically encoded."
+msgstr ""
+
+#: includes/option/extra.php:11
+msgid "Extras"
+msgstr ""
+
+#: includes/option/extra.php:17
+msgid "Excerpt Length"
+msgstr ""
+
+#: includes/option/extra.php:18
+msgid "Manage the length of the post excerpt for all blog pages with excerpt."
+msgstr ""
+
+#: includes/option/extra.php:29
+msgid "Scroll To Top"
+msgstr ""
+
+#: includes/option/extra.php:30
+msgid "Switch on to add the \"Scroll to Top\" functionality."
+msgstr ""
+
+#: includes/option/extra.php:36
+msgid "Open Graph Meta Tags"
+msgstr ""
+
+#: includes/option/extra.php:37
+msgid ""
+"Switch on to Enable open graph meta tags, which are commonly used for "
+"sharing pages on social networking websites such as Facebook."
+msgstr ""
+
+#: includes/option/extra.php:43
+msgid "Code Fields (Tracking etc.)"
+msgstr ""
+
+#: includes/option/extra.php:50
+msgid "Tracking Code"
+msgstr ""
+
+#: includes/option/extra.php:51
+msgid ""
+"Paste your tracking code here. This will be added to your theme's header "
+"template. Note: Place the  code between the <script> tags."
+msgstr ""
+
+#: includes/option/extra.php:62
+msgid "Add code in the Space before &lt;/head&gt;"
+msgstr ""
+
+#: includes/option/extra.php:63
+msgid ""
+"Accept any code of JavaScript/jQuery wrapped with a &lt;script&gt; tags and "
+"Valid HTML markup inside the  &lt;/head&gt;  tag."
+msgstr ""
+
+#: includes/option/extra.php:74
+msgid "Add code in the Space before &lt;/body&gt;"
+msgstr ""
+
+#: includes/option/extra.php:75
+msgid ""
+"Accept any code of JavaScript/jQuery wrapped with a &lt;script&gt; tags and "
+"Valid HTML markup inside the  &lt;/body&gt; tag."
+msgstr ""
+
+#: includes/option/footer.php:11
+msgid "Footer"
+msgstr ""
+
+#: includes/option/footer.php:17
+msgid "Copyright Bar"
+msgstr ""
+
+#: includes/option/footer.php:18
+msgid "Display the copyright bar by turning it on."
+msgstr ""
+
+#: includes/option/footer.php:24
+msgid "Center Copyright Content"
+msgstr ""
+
+#: includes/option/footer.php:25
+msgid "Center the copyright bar content by turning it on."
+msgstr ""
+
+#: includes/option/footer.php:33
+msgid "Copyright Text"
+msgstr ""
+
+#: includes/option/footer.php:34
+msgid "Fill in the text that appears in the copyright bar."
+msgstr ""
+
+#: includes/option/header.php:24
+msgid "Header"
+msgstr ""
+
+#: includes/option/header.php:34
+msgid "Header Logo"
+msgstr ""
+
+#: includes/option/header.php:42
+msgid "Logo Custom Link URL"
+msgstr ""
+
+#: includes/option/header.php:44
+msgid ""
+"Insert a custom URL from which the logo should be linked. Leave it blank to "
+"allow the logo to link to the home page."
+msgstr ""
+
+#: includes/option/header.php:52
+msgid "Default Logo"
+msgstr ""
+
+#: includes/option/header.php:54
+msgid ""
+"You can choose any size for your logo, but we recommended you to choose a "
+"image size of 200x30px."
+msgstr ""
+
+#: includes/option/header.php:63
+msgid "Retina Default Logo"
+msgstr ""
+
+#: includes/option/header.php:64
+msgid ""
+"Upload an image for the retina version of the logo. The size of this logo "
+"should be exactly twice as big as the main logo."
+msgstr ""
+
+#: includes/option/header.php:71
+msgid "Favicon"
+msgstr ""
+
+#: includes/option/header.php:73
+msgid "Set favicon size for your website at 32px x 32px or 64px x 64px."
+msgstr ""
+
+#: includes/option/header.php:83
+msgid "Header Content"
+msgstr ""
+
+#: includes/option/header.php:92
+msgid "Phone Number For Contact Info"
+msgstr ""
+
+#: includes/option/header.php:96
+msgid "Change your \"Phone Number\" for all pages at once from here."
+msgstr ""
+
+#: includes/option/header.php:105
+msgid "Email Address To Get Contact Info"
+msgstr ""
+
+#: includes/option/header.php:109
+msgid "Change your \"Email Address\" for all pages at once from here."
+msgstr ""
+
+#: includes/option/header.php:117
+msgid "Timing For Contact"
+msgstr ""
+
+#: includes/option/header.php:119
+msgid "Change your \"Contact Time\" for all pages at once from here."
+msgstr ""
+
+#: includes/option/header.php:128
+msgid "Address To Get Contact Info"
+msgstr ""
+
+#: includes/option/header.php:132
+msgid "Change your “Address information” for all pages at once from here."
+msgstr ""
+
+#: includes/option/header.php:142
+msgid "Header Sticky"
+msgstr ""
+
+#: includes/option/header.php:150
+msgid "Sticky Header"
+msgstr ""
+
+#: includes/option/header.php:152
+msgid "To enable a stick header, turn it on."
+msgstr ""
+
+#: includes/option/header.php:162 includes/option/sidebars.php:138
+msgid "Search Page"
+msgstr ""
+
+#: includes/option/header.php:169
+msgid "Number of Columns"
+msgstr ""
+
+#: includes/option/header.php:171
+msgid "Manage the grid layouts for the number of columns"
+msgstr ""
+
+#: includes/option/header.php:185
+msgid "Search Excerpt Display"
+msgstr ""
+
+#: includes/option/header.php:187
+msgid ""
+"Controls whether or not the search excerpt text content is displayed on the "
+"search page."
+msgstr ""
+
+#: includes/option/header.php:195
+msgid "Search Results Meta"
+msgstr ""
+
+#: includes/option/header.php:197
+msgid "Enable the display of post meta."
+msgstr ""
+
+#: includes/option/header.php:205
+msgid "Search Field"
+msgstr ""
+
+#: includes/option/header.php:207
+msgid "If you want to display search field turn it on"
+msgstr ""
+
+#: includes/option/header.php:218
+msgid "Search Form"
+msgstr ""
+
+#: includes/option/header.php:225
+msgid "Search Results Content"
+msgstr ""
+
+#: includes/option/header.php:227
+msgid "Controls the content that appears in search results."
+msgstr ""
+
+#: includes/option/header.php:240
+msgid "Limit Search to Post Titles"
+msgstr ""
+
+#: includes/option/header.php:244
+msgid "Enable to limit the search to post titles only."
+msgstr ""
+
+#: includes/option/header.php:253
+msgid "Enable Auto Complete Search"
+msgstr ""
+
+#: includes/option/header.php:257
+msgid ""
+"You can Auto complete search results on the menu search field and other "
+"fitting search forms by turning it on."
+msgstr ""
+
+#: includes/option/header.php:266
+msgid "Auto Complete Search Minimal Character Count"
+msgstr ""
+
+#: includes/option/header.php:270
+msgid "Set the minimal character count to trigger the live search."
+msgstr ""
+
+#: includes/option/header.php:286
+msgid "Auto Complete Search Number of Posts"
+msgstr ""
+
+#: includes/option/header.php:290
+msgid ""
+"Controls the number of posts that should be displayed as search result "
+"suggestions."
+msgstr ""
+
+#: includes/option/home.php:39
+msgid "Home Page"
+msgstr ""
+
+#: includes/option/home.php:45
+msgid "Slider on Home Page"
+msgstr ""
+
+#: includes/option/home.php:46
+msgid "Enable the display of slider on home page by turning it on."
+msgstr ""
+
+#: includes/option/home.php:52
+msgid "Home Slider"
+msgstr ""
+
+#: includes/option/home.php:53
+msgid "Select Slider Home page."
+msgstr ""
+
+#: includes/option/home.php:62
+msgid "Icon Text on Home Page"
+msgstr ""
+
+#: includes/option/home.php:63
+msgid "Enable to display icons text on home page by turning it on."
+msgstr ""
+
+#: includes/option/home.php:69
+msgid "Home Page Icon Text"
+msgstr ""
+
+#: includes/option/home.php:101 includes/option/home.php:102
+msgid "Text"
+msgstr ""
+
+#: includes/option/home.php:109 includes/option/social_media.php:64
+msgid "Icon"
+msgstr ""
+
+#: includes/option/home.php:110 includes/option/social_media.php:65
+msgid "Click an icon to select, click again to deselect."
+msgstr ""
+
+#: includes/option/home.php:118
+msgid "Featured Product on Home Page"
+msgstr ""
+
+#: includes/option/home.php:119
+msgid "Enable to display featured product on home page by turning it on."
+msgstr ""
+
+#: includes/option/home.php:125
+msgid "Featured Product Heading"
+msgstr ""
+
+#: includes/option/home.php:126
+msgid "Fill in the text that appears in the Featured product heading."
+msgstr ""
+
+#: includes/option/home.php:134 includes/option/home.php:160
+msgid "Featured Product Category"
+msgstr ""
+
+#: includes/option/home.php:135 includes/option/home.php:161
+msgid "Select featured product category."
+msgstr ""
+
+#: includes/option/home.php:144
+msgid "Featured Category on Home Page"
+msgstr ""
+
+#: includes/option/home.php:145
+msgid "Enable the display of featured category on home page by turning it on."
+msgstr ""
+
+#: includes/option/home.php:151
+msgid "Featured Category Heading"
+msgstr ""
+
+#: includes/option/home.php:152
+msgid "Fill in the text that appears in the Featured category heading."
+msgstr ""
+
+#: includes/option/home.php:171
+msgid "About Us Section on Home Page"
+msgstr ""
+
+#: includes/option/home.php:172
+msgid "Enable the display of about us section on home page by turning it on."
+msgstr ""
+
+#: includes/option/home.php:178 includes/option/home.php:187
+msgid "About Us Heading"
+msgstr ""
+
+#: includes/option/home.php:179 includes/option/home.php:188
+msgid "Fill in the text that appears in the About Us heading."
+msgstr ""
+
+#: includes/option/home.php:196
+msgid "About Us Image"
+msgstr ""
+
+#: includes/option/home.php:197
+msgid "For your about us image, choose an image file."
+msgstr ""
+
+#: includes/option/home.php:205
+msgid "About Us Call To Text"
+msgstr ""
+
+#: includes/option/home.php:206
+msgid "Fill in the text that appears in the About Us Call To Text."
+msgstr ""
+
+#: includes/option/home.php:214
+msgid "About Us Call To Action"
+msgstr ""
+
+#: includes/option/home.php:215
+msgid "Fill in the text that appears in the About Us Call To Action."
+msgstr ""
+
+#: includes/option/home.php:223
+msgid "Latest Blog Section on Home Page"
+msgstr ""
+
+#: includes/option/home.php:224
+msgid ""
+"Enable the display of latest blog section on home page by turning it on."
+msgstr ""
+
+#: includes/option/home.php:230
+msgid "Latest Blog Heading"
+msgstr ""
+
+#: includes/option/home.php:231
+msgid "Fill in the text that appears in the Blog Heading."
+msgstr ""
+
+#: includes/option/import_data.php:11 includes/option/import_data.php:17
+msgid "Import Theme Data"
+msgstr ""
+
+#: includes/option/import_data.php:19
+msgid "Important: Only Global Options settings can be imported."
+msgstr ""
+
+#: includes/option/sidebars.php:15
+msgid "Sidebars"
+msgstr ""
+
+#: includes/option/sidebars.php:22
+msgid "Pages"
+msgstr ""
+
+#: includes/option/sidebars.php:28
+msgid "Show Sidebar For Pages"
+msgstr ""
+
+#: includes/option/sidebars.php:29
+msgid ""
+"Enable if you want the same sidebars to appear on all pages except HomePage."
+msgstr ""
+
+#: includes/option/sidebars.php:35
+msgid "Page Sidebar "
+msgstr ""
+
+#: includes/option/sidebars.php:36
+msgid "Select sidebar that will display on all pages."
+msgstr ""
+
+#: includes/option/sidebars.php:45
+msgid "Page Sidebar Position"
+msgstr ""
+
+#: includes/option/sidebars.php:46
+msgid "Controls the position (left & right) of sidebar for all pages."
+msgstr ""
+
+#: includes/option/sidebars.php:53 includes/option/sidebars.php:92
+#: includes/option/sidebars.php:131 includes/option/sidebars.php:170
+#: includes/option/sidebars.php:211 includes/option/sidebars.php:248
+#: includes/option/sidebars.php:285
+msgid "Left"
+msgstr ""
+
+#: includes/option/sidebars.php:54 includes/option/sidebars.php:93
+#: includes/option/sidebars.php:132 includes/option/sidebars.php:171
+#: includes/option/sidebars.php:212 includes/option/sidebars.php:249
+#: includes/option/sidebars.php:286
+msgid "Right"
+msgstr ""
+
+#: includes/option/sidebars.php:60
+msgid "Blog Archive / Category"
+msgstr ""
+
+#: includes/option/sidebars.php:67
+msgid "Sidebars For Blog Archive / Category"
+msgstr ""
+
+#: includes/option/sidebars.php:68
+msgid "You can use the same sidebars on each blog post by turning it on."
+msgstr ""
+
+#: includes/option/sidebars.php:74
+msgid "Blog Post Sidebar"
+msgstr ""
+
+#: includes/option/sidebars.php:75
+msgid "Choose sidebar to appear on all blog posts."
+msgstr ""
+
+#: includes/option/sidebars.php:84
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: includes/option/sidebars.php:85
+msgid "Manage the position of sidebar for archive pages and blog posts."
+msgstr ""
+
+#: includes/option/sidebars.php:99
+msgid "Blog Single"
+msgstr ""
+
+#: includes/option/sidebars.php:106
+msgid "Sidebars For Blog Single Posts"
+msgstr ""
+
+#: includes/option/sidebars.php:107
+msgid ""
+"Turn on if you’re willing to use the exact sidebars on all old blog posts. "
+"The page choices are replaced by this option."
+msgstr ""
+
+#: includes/option/sidebars.php:113
+msgid "Single Blog Sidebar Type"
+msgstr ""
+
+#: includes/option/sidebars.php:114
+msgid "Choose sidebar to appear on the single blog page."
+msgstr ""
+
+#: includes/option/sidebars.php:123
+msgid "Single Blog Sidebar Position"
+msgstr ""
+
+#: includes/option/sidebars.php:124
+msgid "Controls the placement of the single blog page's sidebar."
+msgstr ""
+
+#: includes/option/sidebars.php:145
+msgid "Sidebars For Search Page"
+msgstr ""
+
+#: includes/option/sidebars.php:146
+msgid ""
+"Turn on if you’re willing to use the exact sidebars on all old blog posts."
+msgstr ""
+
+#: includes/option/sidebars.php:152
+msgid "Search Page Sidebar Type"
+msgstr ""
+
+#: includes/option/sidebars.php:153
+msgid "Choose sidebar that you want to get appeared on the SERPs."
+msgstr ""
+
+#: includes/option/sidebars.php:162
+msgid "Search Sidebar Position"
+msgstr ""
+
+#: includes/option/sidebars.php:163
+msgid "Controls the position of sidebar for the SERPs."
+msgstr ""
+
+#: includes/option/sidebars.php:179
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: includes/option/sidebars.php:186
+msgid "Sidebars For Woocommerce Category / Shop Page"
+msgstr ""
+
+#: includes/option/sidebars.php:187
+msgid ""
+"Turn on if you’re willing to use the exact sidebars on category / shop page."
+msgstr ""
+
+#: includes/option/sidebars.php:193
+msgid "Woocommerce Category / Shop Page Sidebar Type"
+msgstr ""
+
+#: includes/option/sidebars.php:194
+msgid "Choose sidebar that you want to get appear on category / shop page."
+msgstr ""
+
+#: includes/option/sidebars.php:203
+msgid "Woocommerce Category / Shop Page Sidebar Position"
+msgstr ""
+
+#: includes/option/sidebars.php:204
+msgid "Controls the position of sidebar for category / shop page."
+msgstr ""
+
+#: includes/option/sidebars.php:216
+msgid "Woocommerce Pages( Cart / Checkout / My Account )"
+msgstr ""
+
+#: includes/option/sidebars.php:223
+msgid "Sidebars For Woocommerce Pages( Cart / Checkout / My Account )"
+msgstr ""
+
+#: includes/option/sidebars.php:224
+msgid ""
+"Turn on if you’re willing to use the exact sidebars on all woocommerce pages "
+"(Cart / Checkout / My Account)."
+msgstr ""
+
+#: includes/option/sidebars.php:230
+msgid "Woocommerce Pages Sidebar Type"
+msgstr ""
+
+#: includes/option/sidebars.php:231
+msgid ""
+"Choose sidebar that you want to get appear on the woocommerce pages ( Cart / "
+"Checkout / My Account )."
+msgstr ""
+
+#: includes/option/sidebars.php:240
+msgid "Woocommerce Pages Sidebar Position"
+msgstr ""
+
+#: includes/option/sidebars.php:241
+msgid ""
+"Controls the position of sidebar for the woocommerce pages ( Cart / "
+"Checkout / My Account )."
+msgstr ""
+
+#: includes/option/sidebars.php:253
+msgid "Woocommerce Single Product Page"
+msgstr ""
+
+#: includes/option/sidebars.php:260
+msgid "Sidebars For Woocommerce Single Product Page"
+msgstr ""
+
+#: includes/option/sidebars.php:261
+msgid ""
+"Turn on if you’re willing to use the exact sidebars on single product page."
+msgstr ""
+
+#: includes/option/sidebars.php:267
+msgid "Woocommerce Single Product Page Sidebar Type"
+msgstr ""
+
+#: includes/option/sidebars.php:268
+msgid "Choose sidebar that you want to get appear on single product page."
+msgstr ""
+
+#: includes/option/sidebars.php:277
+msgid "Woocommerce Single Product Page Position"
+msgstr ""
+
+#: includes/option/sidebars.php:278
+msgid "Controls the position of sidebar for single product page."
+msgstr ""
+
+#: includes/option/social_media.php:11
+msgid "Social Media"
+msgstr ""
+
+#: includes/option/social_media.php:18
+msgid ""
+"<strong>VALUABLE NOTE:</strong> This option regulates which social networks "
+"show in the footers and headers of legacy pages. The Person element and the "
+"Social Links can both use the customised icons your design here."
+msgstr ""
+
+#: includes/option/social_media.php:23
+msgid "Social Media Links / Icons"
+msgstr ""
+
+#: includes/option/social_media.php:24
+msgid ""
+"Social media links support one network per field and use a repeater field. "
+"The \"Add\" button can be used to add extra fields."
+msgstr ""
+
+#: includes/option/social_media.php:55
+msgid "Social Network"
+msgstr ""
+
+#: includes/option/social_media.php:56
+msgid "Select a social network to automatically add its icon"
+msgstr ""
+
+#: includes/option/social_media.php:72
+msgid "Custom Link"
+msgstr ""
+
+#: includes/option/social_media.php:73
+msgid "Insert your custom link here"
+msgstr ""
+
+#: includes/option/social_media.php:79
+msgid "Social Sharing Icons"
+msgstr ""
+
+#: includes/option/social_media.php:86
+msgid "Social Sharing"
+msgstr ""
+
+#: includes/option/social_media.php:87
+msgid ""
+"You can choose which social network should appear in the social share box."
+msgstr ""
+
+#: includes/option/social_media.php:93
+msgid "Facebook"
+msgstr ""
+
+#: includes/option/social_media.php:94
+msgid "Twitter"
+msgstr ""
+
+#: includes/option/social_media.php:95
+msgid "Reddit"
+msgstr ""
+
+#: includes/option/social_media.php:96
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/option/social_media.php:97
+msgid "WhatsApp"
+msgstr ""
+
+#: includes/option/social_media.php:98
+msgid "Telegram"
+msgstr ""
+
+#: includes/option/social_media.php:99
+msgid "Tumblr"
+msgstr ""
+
+#: includes/option/social_media.php:100
+msgid "Pinterest"
+msgstr ""
+
+#: includes/option/social_media.php:101
+msgid "VK"
+msgstr ""
+
+#: includes/option/social_media.php:102
+msgid "Xing"
+msgstr ""
+
+#: includes/option/woocommerce.php:11
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/option/woocommerce.php:17
+msgid "WooCommerce Number of Products per Page"
+msgstr ""
+
+#: includes/option/woocommerce.php:18
+msgid "Controls the number of products that display per page. "
+msgstr ""
+
+#: includes/option/woocommerce.php:29
+msgid "WooCommerce Number of Product Columns"
+msgstr ""
+
+#: includes/option/woocommerce.php:30
+msgid "Controls the number of columns for the main shop page."
+msgstr ""
+
+#: includes/option/woocommerce.php:41
+msgid "WooCommerce Related Product"
+msgstr ""
+
+#: includes/option/woocommerce.php:42
+msgid "Turn on to display the related product single page."
+msgstr ""
+
+#: includes/option/woocommerce.php:48
+msgid "WooCommerce Related/Up-Sell/Cross-Sell Product Number of Columns"
+msgstr ""
+
+#: includes/option/woocommerce.php:49
+msgid ""
+"Controls the number of columns for the related and up-sell products on "
+"single posts and cross-sells on cart page."
+msgstr ""
+
+#: includes/option/woocommerce.php:62
+msgid "WooCommerce My Account Link in Primary Menu"
+msgstr ""
+
+#: includes/option/woocommerce.php:63
+msgid ""
+"Turn on to display the \"My Account\" link in the primary menu. Not "
+"compatible with other menu plugins."
+msgstr ""
+
+#: includes/option/woocommerce.php:69
+msgid "WooCommerce Mini Cart in Primary Menu"
+msgstr ""
+
+#: includes/option/woocommerce.php:70
+msgid ""
+"Turn on to display the cart icon in the primary menu. Not compatible with "
+"other menu plugins."
+msgstr ""
+
+#: includes/option/woocommerce.php:76
+msgid "WooCommerce My Account Link in Top Menu"
+msgstr ""
+
+#: includes/option/woocommerce.php:77
+msgid ""
+"Turn on to display the \"My Account\" link in the Top menu. Not compatible "
+"with other menu plugins."
+msgstr ""
+
+#: includes/option/woocommerce.php:85
+msgid "WooCommerce Social Icons"
+msgstr ""
+
+#: includes/option/woocommerce.php:86
+msgid "Turn on to display the social icons on single product posts."
+msgstr ""
+
+#: includes/option/woocommerce.php:92
+msgid "WooCommerce Sale Badge Text"
+msgstr ""
+
+#: includes/option/woocommerce.php:93
+msgid ""
+"[percentage] and [value] placeholders can be used to display product "
+"discount as percentage or as a value, ex: [percentage] Off!"
+msgstr ""
+
+#: includes/option/woocommerce.php:99 includes/option/woocommerce.php:100
+msgid "WooCommerce Add to Cart button Text"
+msgstr ""
+
+#: includes/option/woocommerce.php:102
+msgid "Add to Cart!"
+msgstr ""
+
+#: includes/option/woocommerce.php:106
+msgid "WooCommerce Out Of Stock Badge Text"
+msgstr ""
+
+#: includes/option/woocommerce.php:107
+msgid "Default value is: Out of stock"
+msgstr ""
+
+#: search.php:21
+msgid "Need a new search?"
+msgstr ""
+
+#: search.php:22
+msgid "If you didn't find what you were looking for, try a new search!"
+msgstr ""
+
+#: search.php:29
+msgid "Couldn't find what you're looking for!"
+msgstr ""
+
+#: search.php:32
+msgid "Try again"
+msgstr ""
+
+#: search.php:33
+msgid "If you want to rephrase your query, here is your chance:"
+msgstr ""
+
+#: template-parts/content-none.php:9
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:22
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:18 template-parts/content-single.php:70
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:32 template-parts/content-single.php:105
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:51
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:52
+msgid "Change address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:54
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:62
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:64
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:70
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:71
+msgid "Enter a different address"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:25
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:30 woocommerce/cart/cart-totals.php:31
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:125
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:52 woocommerce/cart/cart-totals.php:53
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:72
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:98 woocommerce/cart/cart-totals.php:99
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28
+msgid "Remove item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29
+msgid "Thumbnail image"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:77
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:97
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:103
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:56 woocommerce/cart/mini-cart.php:65
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:92
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:143
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:148
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:103
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:31
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:34
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:42 woocommerce/checkout/thankyou.php:84
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:47
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:52
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:58
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:64
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:70
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:100
+msgid "Browse products"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:101
+msgid "No order has been made yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:64
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:120
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:124
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:125
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:126
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:127
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:128
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:129
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:130
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:134
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:141
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/grouped.php:67
+msgid "Buy one of this item"
+msgstr ""
