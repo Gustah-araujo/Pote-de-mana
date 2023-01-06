@@ -1,0 +1,16 @@
+// =========================================
+// width
+// =========================================
+
+$width-count: 0;
+$width-count-total: 100;
+
+ @for $i from $width-count through $width-count-total {
+	.width-#{$i} {
+		width: unquote($i + "%");
+	}
+
+	.width-#{$i}-imp {
+		width: unquote($i + "%") !important;
+	}
+}

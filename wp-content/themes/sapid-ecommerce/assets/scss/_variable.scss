@@ -1,0 +1,104 @@
+
+
+// TODO
+// Get a value for vertical rhythm ie: margin-bottom: $vertical-rhythm from Greg and add that
+
+
+// ==========================================================================
+// variables
+// ==========================================================================
+
+// ==========================================================================
+// color default
+// ==========================================================================
+$white                                    : #fff !default;
+$green                                    : #0f931f !default;
+$red                                      : #b50717 !default;
+$red-light                                : #ff4b5b !default;
+$text-dblue                               : #00004d !default;
+
+$black                                    : #000 !default;
+$greyish-warm                             : #9d9d9d !default;
+$greyish-brown                            : #575756 !default;
+$greyish-charcoal                         : #4a4a4a !default;
+
+$blue-ugly                                : #305f73 !default;
+$blue-cloudy                              : #bdc5d0 !default;
+
+$orange-bright                            : #ff6700 !default;
+$orange-bright-secondary                  : #ff5b00 !default;
+
+$azure                                    : #009ee2 !default;
+$azure-secondary                          : #009de2 !default;
+$green-light                              : #bccf02 !default;
+
+$disabled                                 : #dfe1df !default;
+
+$border                                   : #a1a1a1 !default;
+$line                                     : #dbdbdb !default;
+
+$menu-bg                                  : #fcfcfc !default;
+$menu-header-line                         : #c6c6c6 !default;
+
+$bg-light                               :#f2f6f8;
+// ==========================================================================
+// base color and fonts
+// ==========================================================================
+
+$base-font-size                                 : 24px !default;
+$base-line-height                               : 1.67 !default;
+
+$text-color                                     : $greyish-warm !default;
+$text-color-dark                                : $greyish-brown !default;
+$text-color-black                               : $black !default;
+$text-color-orange                              : $orange-bright !default;
+
+// =======================================================
+// color map
+// =======================================================
+
+
+$font-size-12: 0.75rem; //12px
+$font-size-14: 0.875rem; //14px
+$font-size-15: 0.938rem; //15px
+$font-size-16: 1rem; //16px
+$font-size-18: 1.125rem; //18px
+$font-size-20: 1.25rem; //20px
+$font-size-22: 1.375rem; /*22px*/
+$font-size-23: 1.438rem; /*23px*/
+$font-size-25: 1.563rem; //25px
+$font-size-30: 1.875rem; //30px
+$font-size-40: 2.5rem; //40px
+$font-size-48: 3rem; //48px
+
+$text-white: #ffff;
+$text-light: #8d97ad;
+
+$creative-green:#1dc8cd;
+
+$gap-desktop-5: 0.3125vw; //5px
+$gap-desktop-10: 0.625vw; //10px
+$gap-desktop-15: 0.9375vw; //15px
+$gap-desktop-20: 1.25vw; //20px
+$gap-desktop-25: 1.5625vw; //25px
+$gap-desktop-30: 1.875vw; //30px
+$gap-desktop-7: 2.1875vw; //2.188vw
+$gap-desktop-40: 2.5vw; //40px
+$gap-desktop-80: 5vw; //80px
+$gap-desktop-45: 2.8125vw; //45px
+$gap-desktop-22: 1.375vw; //22px
+$gap-desktop-24: 1.5vw; //24px
+$gap-desktop-50: 3.125vw; //50
+$gap-desktop-8: 0.5vw; //8px
+$gap-desktop-90: 5.625vw; //-90px
+//for mobile
+$gap-mob-5:1.563vw;
+$gap-mob-10:3.125vw;
+$gap-mob-15:4.688vw;
+$gap-mob-20:6.250vw;
+$gap-mob-25:7.813vw;
+$gap-mob-30:9.375vw;
+$gap-mob-35:10.938vw;
+$gap-mob-40:12.500vw;
+
+

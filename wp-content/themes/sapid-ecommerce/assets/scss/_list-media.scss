@@ -1,0 +1,17 @@
+.media {
+    border: 1px solid rgba(120, 130, 140, 0.13) !important;
+    margin-bottom: 10px !important;
+    padding: 15px !important;
+}
+
+.lm {
+    .active {
+        background: linear-gradient(to right, #1051c2 0%, #6a11cb 70%) !important;
+    }
+}
+
+@media (max-width: 550px){
+    .mar1{
+        margin-top:30px;
+    }
+}

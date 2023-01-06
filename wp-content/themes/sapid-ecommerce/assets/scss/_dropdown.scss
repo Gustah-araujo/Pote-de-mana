@@ -1,0 +1,27 @@
+
+.btn-warning {
+    &:hover {
+        color: $white;
+        background-color: #ffca2c;
+        border-color: #ffc720;
+    }
+}
+.btn-info {
+    &:hover {
+        color: $white;
+        background-color: #31d2f2;
+        border-color: #25cff2;
+    }
+}
+
+.btn-secondary {
+    transition: 0.2s ease-in;
+    background-color: #ffffff;
+    color: #8d97ad;
+
+    &:hover {
+        color: #ffffff !important;
+        background-color: #5a6268;
+        border-color: #545b62;
+    }
+}

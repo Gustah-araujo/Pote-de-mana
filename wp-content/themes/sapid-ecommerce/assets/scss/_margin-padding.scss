@@ -1,0 +1,84 @@
+// Margin
+@for $count from 0 through 100 {
+    // MARGIN
+    .m-#{$count} {
+        margin: #{$count}px;
+    }
+
+    .m-#{$count}-imp {
+        margin: #{$count}px !important;
+    }
+
+    .m-t-#{$count} {
+        margin-top: $count + px;
+    }
+
+    .m-t-#{$count}-imp {
+        margin-top: ($count + px) !important;
+    }
+
+    .m-r-#{$count} {
+        margin-right: $count + px;
+    }
+
+    .m-r-#{$count}-imp {
+        margin-right: ($count + px) !important;
+    }
+
+    .m-b-#{$count} {
+        margin-bottom: $count + px;
+    }
+
+    .m-b-#{$count}-imp {
+        margin-bottom: ($count + px) !important;
+    }
+
+    .m-l-#{$count} {
+        margin-left: $count + px;
+    }
+
+    .m-l-#{$count}-imp {
+        margin-left: ($count + px) !important;
+    }
+
+    // PADDING
+    .p-#{$count} {
+        padding: #{$count}px;
+    }
+
+    .p-#{$count}-imp {
+        padding: #{$count}px !important;
+    }
+
+    .p-t-#{$count} {
+        padding-top: $count + px;
+    }
+
+    .p-t-#{$count}-imp {
+        padding-top: ($count + px) !important;
+    }
+
+    .p-r-#{$count} {
+        padding-right: $count + px;
+    }
+
+    .p-r-#{$count}-imp {
+        padding-right: ($count + px) !important;
+    }
+
+    .p-b-#{$count} {
+        padding-bottom: $count + px;
+    }
+
+    .p-b-#{$count}-imp {
+        padding-bottom: ($count + px) !important;
+    }
+
+    .p-l-#{$count} {
+        padding-left: $count + px;
+    }
+
+    .p-l-#{$count}-imp {
+        padding-left: ($count + px) !important;
+    }
+}

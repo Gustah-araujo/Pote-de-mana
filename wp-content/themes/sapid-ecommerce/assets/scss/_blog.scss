@@ -1,0 +1,132 @@
+.blg {
+    ul {
+        &.list-inline {
+            li {
+                display: inline-block;
+
+                .text-red {
+                    &:hover {
+                        color: #ff0017;
+                    }
+                }
+            }
+        }
+    }
+
+    h2 {
+        .text-dark {
+            &:hover {
+                color: #6a11cb!important;
+            }
+        }
+    }
+
+    a {
+        &:hover {
+            color:#6a11cb !important;
+        }
+    }
+}
+
+.list-block {
+    margin: 0px;
+    padding: 0px;
+
+    li {
+        list-style: none;
+        padding: 10px 0;
+        display: flex;
+        align-items: start;
+
+        i {
+            margin-right: 10px;
+            flex-shrink: 0px;
+        }
+    }
+}
+
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+
+    .media {
+        border: 0px;
+        padding: 0px;
+        display: flex;
+        align-items: flex-start;
+
+        .media-body {
+            flex: 1;
+        }
+    }
+}
+
+.bg-facebook {
+    background-color: #3b5a9a;
+    color: $white;
+
+    &.btn-rounded {
+        border-radius: 60px;
+        -webkit-border-radius: 60px;
+    }
+
+    &:hover {
+        background-color: $red;
+        color: $white;
+    }
+}
+
+.bg-twitter {
+    background-color: #56adf2;
+    color: $white;
+
+    &.btn-rounded {
+        border-radius: 60px;
+        -webkit-border-radius: 60px;
+    }
+
+    &:hover {
+        background-color: $red;
+        color: $white;
+    }
+}
+
+.bg-light {
+    background-color: #f2f6f8 !important;
+}
+
+.blogs {
+    .card {
+        box-shadow: 0px 0px 30px rgb(115 128 157 / .2);
+        border: 0;
+    }
+}
+
+.blogs {
+    padding: $gap-desktop-40 0;
+    background: $bg-light;
+    margin-top: $gap-desktop-40;
+    .card {
+      margin-top: $gap-desktop-30;
+      border: none;
+      .card-body {
+        padding: $gap-desktop-20;
+      }
+      img {
+        width: 100%;
+      }
+      &:hover {
+        transform: translateY(-10px);
+        transition: 0.2s ease-in;
+      }
+    }
+  }
+
+  .card {
+    border: 0px;
+  
+    &.card-shad {
+      box-shadow: 0px 0px 30px rgb(115 128 157 / 16%) !important;
+    }
+  }
