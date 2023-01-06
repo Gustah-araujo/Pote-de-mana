@@ -14,6 +14,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: pote-de-mana.gustavocerqueira.com.br
-        username: pote-de-mana
+        server: ftp.gustavocerqueira.com.br
+        username: pote-de-mana@pote-de-mana.gustavocerqueira.com.br
         password: ${{ secrets.develop_ftp_password }}
