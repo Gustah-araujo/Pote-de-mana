@@ -23,3 +23,7 @@ node_modules/
 *.sqlite
 
 docker-compose.yaml
+
+wp-config.php
+
+.htaccess
