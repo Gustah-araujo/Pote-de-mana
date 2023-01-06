@@ -17,3 +17,5 @@ jobs:
         server: ftp.gustavocerqueira.com.br
         username: pote-de-mana@pote-de-mana.gustavocerqueira.com.br
         password: ${{ secrets.develop_ftp_password }}
+        local-dir: ./
+        server-dir: ./
