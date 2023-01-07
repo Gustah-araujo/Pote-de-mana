@@ -2,8 +2,10 @@ name: Notify Discord
 
 on:
   workflow_run:
-    workflows: [Deploy Develop]
-    types: [completed]
+    workflows:
+      - Deploy Develop
+    types:
+      - completed
 
 jobs:
   on-success:

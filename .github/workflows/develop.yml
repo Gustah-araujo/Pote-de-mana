@@ -21,3 +21,17 @@ jobs:
         password: ${{ secrets.develop_ftp_password }}
         local-dir: ./
         server-dir: ./
+
+    - name: 📣 Notify Discord (Sucess)
+      if: ${{ sucess() }}
+      uses: rjstone/discord-webhook-notify@v1
+      with:
+          severity: info
+          username: GithubActions
+          color: '#0F0'
+          avatarUrl: https://github.githubassets.com/images/modules/logos_page/Octocat.png
+          description: "Status: Sucesso"
+          details: "Commits: ${{ github.event.commits }}"
+          footer: Pote de Mana.
+          text: ${{ github.event.workflow.name }}
+          webhookUrl: ${{ secrets.discord_webhook }}
