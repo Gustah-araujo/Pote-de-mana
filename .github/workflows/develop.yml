@@ -31,7 +31,7 @@ jobs:
           color: '#0F0'
           avatarUrl: https://github.githubassets.com/images/modules/logos_page/Octocat.png
           description: "Status: Sucesso"
-          details: "Commits: ${{ github.event.commits }}"
+          details: "Commits: \n ${{ join( github.event.commits.*.message, '\n' ) }}"
           footer: Pote de Mana.
-          text: ${{ github.event.workflow.name }}
+          text: ${{ github.event.head_commit.message }}
           webhookUrl: ${{ secrets.discord_webhook }}
