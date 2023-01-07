@@ -1,6 +1,6 @@
 on:
   workflow_run:
-    workflows: [🚀 Deploy Develop]
+    workflows: [Deploy Develop]
     types: [completed]
 
 jobs:
