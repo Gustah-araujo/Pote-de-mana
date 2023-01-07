@@ -1,0 +1,135 @@
+/*
+Theme Name:   Sapid E-Commerce Child
+Description:  Sapid E-Commerce Child Theme
+Author:       Gustavo Araujo
+Template:     sapid-ecommerce
+Text Domain:  sapid-ecommercechild
+*/
+
+.h14-navbar,
+.h14-navbar .navbar .dropdown-menu,
+.h14-infobar {
+    background: #133378;
+}
+
+.h14-navbar .navbar .navbar-nav .search .nav-link {
+    background: #061638;
+}
+
+.h14-infobar * {
+    color: #fff !important;
+}
+
+.h14-info-bar {
+    justify-content: space-between !important;
+}
+
+@media (max-width: 768px) {
+    .h14-info-bar {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar-top-menu {
+        width: 100%;
+    }
+
+    .navbar-top-menu > ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .navbar-top-menu > ul > li {
+        width: 30%;
+    }
+
+    .navbar-top-menu > ul > li > a {
+        padding: 0 !important;
+    }
+
+    .menu-mini-cart {
+        position: absolute !important;
+        top: 5px;
+        right: 5px;
+        width: inherit !important;
+    }
+
+    .h14-navbar {
+        border-top: solid 2px #fff;
+    }
+
+    .hover-dropdown > ul {
+        display: none;
+    }
+
+}
+
+.navbar-top-menu .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+#header14 {
+    justify-content: space-between;
+}
+
+.hover-dropdown a{
+    color: #fff !important;
+}
+
+.sapid-logo img {
+    height: 75px;
+    width: auto;
+}
+
+.mdi-card-search {
+    color: #fff;
+}
+
+.bg-grad,
+.checkout-button {
+    background: #133378 !important;
+}
+
+.add_to_cart_button:hover {
+    transform: scale(1.1);
+}
+
+.text-dblue-sub {
+    color: #133378 !important;
+}
+
+.essr>.container>.row {
+    justify-content: center;
+}
+
+.essr>.container>.row .card {
+    border: none !important;
+}
+
+.product-card {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+}
+
+.product-card > a >img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.product-card-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+
+.add_to_cart_button {
+    width: 90%;
+    text-align: center;
+    transition: 400ms;
+    align-self: center;
+}
