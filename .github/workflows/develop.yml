@@ -23,7 +23,7 @@ jobs:
         server-dir: ./
 
     - name: 📣 Notify Discord (Sucess)
-      if: ${{ sucess() }}
+      if: ${{ success() }}
       uses: rjstone/discord-webhook-notify@v1
       with:
           severity: info
