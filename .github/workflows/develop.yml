@@ -1,8 +1,10 @@
+name: Deploy Develop
+
 on:
   push:
     branches:
       - develop
-name: Deploy Develop
+
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -19,31 +21,3 @@ jobs:
         password: ${{ secrets.develop_ftp_password }}
         local-dir: ./
         server-dir: ./
-
-on:
-  workflow_run:
-    workflows: [Deploy Develop]
-    types: [completed]
-
-jobs:
-  on-success:
-    runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    steps:
-      - name: Test Custom
-        uses: rjstone/discord-webhook-notify@v1
-        with:
-            severity: info
-            username: GithubActions
-            color: '#0F0'
-            avatarUrl: https://github.githubassets.com/images/modules/logos_page/Octocat.png
-            description: "Status: Sucesso"
-            details: Deploy finalizado.
-            footer: Pote de Mana.
-            text: ${{ github.event.workflow.name }}
-            webhookUrl: ${{ secrets.discord_webhook }}
-  on-failure:
-    runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
-    steps:
-      - run: echo 'The triggering workflow failed'
