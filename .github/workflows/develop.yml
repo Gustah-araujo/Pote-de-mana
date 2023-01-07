@@ -1,8 +1,10 @@
+name: Deploy Develop
+
 on:
   push:
     branches:
       - develop
-name: 🚀 Deploy Develop
+
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -19,3 +21,31 @@ jobs:
         password: ${{ secrets.develop_ftp_password }}
         local-dir: ./
         server-dir: ./
+
+    - name: 📣 Notify Discord (Sucess)
+      if: ${{ success() }}
+      uses: rjstone/discord-webhook-notify@v1
+      with:
+          severity: info
+          username: GithubActions
+          color: '#0F0'
+          avatarUrl: https://github.githubassets.com/images/modules/logos_page/Octocat.png
+          description: "Status: Sucess"
+          details: "Commits: \n ${{ join( github.event.commits.*.message ) }}"
+          footer: Pote de Mana.
+          text: ${{ github.event.head_commit.message }}
+          webhookUrl: ${{ secrets.discord_webhook }}
+
+    - name: 📣 Notify Discord (Failure)
+      if: ${{ failure() }}
+      uses: rjstone/discord-webhook-notify@v1
+      with:
+          severity: info
+          username: GithubActions
+          color: '#F00'
+          avatarUrl: https://github.githubassets.com/images/modules/logos_page/Octocat.png
+          description: "Status: Failed"
+          details: "Commits: \n ${{ join( github.event.commits.*.message, '\n' ) }}"
+          footer: Pote de Mana.
+          text: ${{ github.event.head_commit.message }}
+          webhookUrl: ${{ secrets.discord_webhook }}
