@@ -20,6 +20,10 @@ Text Domain:  sapid-ecommercechild
     color: #fff !important;
 }
 
+.widget_shopping_cart_content * {
+    color: #133378 !important;
+}
+
 .h14-info-bar {
     justify-content: space-between !important;
 }
