@@ -32,4 +32,4 @@ $wrapper_class  = 'sapid-wrapper';
             <?php do_action( 'sapid_header' ); ?>
             <main id="main" class="site-main" role="main">
                 <?php sapid_breadcrumbs(); ?>
-                    <div class="sapid-row" style="">
+                    <div class="sapid-row">

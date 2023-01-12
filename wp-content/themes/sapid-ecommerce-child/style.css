@@ -6,10 +6,24 @@ Template:     sapid-ecommerce
 Text Domain:  sapid-ecommercechild
 */
 
+:root{
+    --dark-blue: #133378;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.shadow-box {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
 .h14-navbar,
 .h14-navbar .navbar .dropdown-menu,
 .h14-infobar {
-    background: #133378;
+    background: var(--dark-blue);
 }
 
 .h14-navbar .navbar .navbar-nav .search .nav-link {
@@ -21,7 +35,7 @@ Text Domain:  sapid-ecommercechild
 }
 
 .widget_shopping_cart_content * {
-    color: #133378 !important;
+    color: var(--dark-blue) !important;
 }
 
 .h14-info-bar {
@@ -92,8 +106,9 @@ Text Domain:  sapid-ecommercechild
 }
 
 .bg-grad,
-.checkout-button {
-    background: #133378 !important;
+.checkout-button,
+.woocommerce-button {
+    background: var(--dark-blue) !important;
 }
 
 .add_to_cart_button:hover {
@@ -101,7 +116,7 @@ Text Domain:  sapid-ecommercechild
 }
 
 .text-dblue-sub {
-    color: #133378 !important;
+    color: var(--dark-blue) !important;
 }
 
 .essr>.container>.row {
@@ -144,4 +159,32 @@ a.added_to_cart.wc-forward {
 
 .woocommerce ul.products li.product .button.added {
     display: inline-block !important;
+}
+
+/* My Account Section */
+
+.woocommerce-MyAccount-navigation-link a{
+    display: block;
+    width: 100%;
+    border: solid 1px #DDD;
+    padding: 10px 15px;
+    color: var(--dark-blue);
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 25px;
+}
+
+.woocommerce-MyAccount-navigation-link.is-active a {
+    background-color: #DDD;
+}
+
+.woocommerce-MyAccount-content {
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+.woocommerce-input-wrapper input, .woocommerce-input-wrapper select, .woocommerce-Input {
+    padding: 10px 5px;
+    border: #DDD solid 1px;
 }
