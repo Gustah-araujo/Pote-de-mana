@@ -137,3 +137,11 @@ Text Domain:  sapid-ecommercechild
     transition: 400ms;
     align-self: center;
 }
+
+a.added_to_cart.wc-forward {
+    display: none !important;
+}
+
+.woocommerce ul.products li.product .button.added {
+    display: inline-block !important;
+}
