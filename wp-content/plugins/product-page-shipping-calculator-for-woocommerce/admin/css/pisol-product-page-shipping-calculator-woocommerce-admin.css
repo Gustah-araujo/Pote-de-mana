@@ -1,0 +1,8 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .bootstrap-wrapper .plugin-card-top h3{
+     font-size:18px;
+ }

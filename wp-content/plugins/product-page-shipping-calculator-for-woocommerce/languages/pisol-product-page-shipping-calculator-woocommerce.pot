@@ -1,0 +1,530 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Language: \n"
+"POT-Creation-Date: 2022-12-21 05:30+0000\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: admin/basic.php:55
+msgid ""
+"[country] => short code can be used to show the name of the country selected "
+"by the customer"
+msgstr ""
+
+#: admin/basic.php:52
+msgid "Address form submission button text"
+msgstr ""
+
+#: admin/basic.php:30
+msgid "After add to cart button"
+msgstr ""
+
+#: admin/basic.php:33
+msgid "After calculate shipping button"
+msgstr ""
+
+#: admin/basic.php:33
+msgid "After calculate shipping form (inside hidden container)"
+msgstr ""
+
+#: admin/basic.php:39
+msgid "Auto calculation of shipping method"
+msgstr ""
+
+#: admin/basic.php:37
+msgid "Auto loading of shipping method (we recommend keeping it disabled)"
+msgstr ""
+
+#: admin/design.php:30
+msgid "Background color of shipping methods"
+msgstr ""
+
+#: admin/design.php:30
+msgid "Background color of the area where the result are shown"
+msgstr ""
+
+#: admin/basic.php:21
+msgid "Basic setting"
+msgstr ""
+
+#: admin/basic.php:30
+msgid "Before add to cart button"
+msgstr ""
+
+#: admin/basic.php:33
+msgid "Before calculate shipping button"
+msgstr ""
+
+#: admin/basic.php:33
+msgid "Before calculate shipping form (inside hidden container)"
+msgstr ""
+
+#: admin/popup.php:29
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/popup.php:29
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/design.php:28
+msgid "Box showing result of shipping methods"
+msgstr ""
+
+#: admin/design.php:38
+msgid "Button"
+msgstr ""
+
+#: admin/popup.php:35
+msgid "Button background color"
+msgstr ""
+
+#: admin/popup.php:33
+msgid "Button Icon image"
+msgstr ""
+
+#: admin/popup.php:29
+msgid "Button Position"
+msgstr ""
+
+#: admin/popup.php:37
+msgid "Button text color"
+msgstr ""
+
+#: admin/basic.php:35
+msgid ""
+"By default the calculator form will be closed if you want you can make it "
+"open"
+msgstr ""
+
+#: admin/design.php:40
+msgid "Calculate shipping button background color"
+msgstr ""
+
+#: admin/basic.php:50
+msgid "Calculate shipping button text"
+msgstr ""
+
+#: admin/design.php:42
+msgid "Calculate shipping button text color"
+msgstr ""
+
+#: admin/estimate-setting.php:32 admin/free-estimate-setting.php:31
+msgid "Cart estimate"
+msgstr ""
+
+#: admin/basic.php:35
+msgid "Closed by default"
+msgstr ""
+
+#: admin/basic.php:43
+msgid "Consider product quantity field"
+msgstr ""
+
+#: admin/basic.php:43
+msgid ""
+"Consider product quantity field: Quantity selected in the quantity field + "
+"quantity of product in the cart will be considered to calculate the shipping "
+"method and cost <strong>(We suggest using this option to get more accurate "
+"shipping method)</strong> <br>Don't consider quantity: 1 unit of product "
+"will be considered to calculate the shipping method till product is not "
+"added to the cart, when product is added to the cart the quantity added in "
+"the cart will be used to give the shipping method"
+msgstr ""
+
+#: public/class-product-page.php:295
+msgid "Country"
+msgstr ""
+
+#: admin/design.php:21
+msgid "Design"
+msgstr ""
+
+#: admin/basic.php:46
+msgid "Different messages used in plugin"
+msgstr ""
+
+#: admin/product.php:30
+msgid "Disable calculator"
+msgstr ""
+
+#: admin/basic.php:39
+msgid "Disabled"
+msgstr ""
+
+#: admin/basic.php:39
+msgid ""
+"Disabled => It will not show shipping method till user click on Update "
+"address manually"
+msgstr ""
+
+#: admin/estimate-setting.php:30 admin/free-estimate-setting.php:29
+msgid "Don't show shipping methods"
+msgstr ""
+
+#: admin/basic.php:43
+msgid "Dont consider quantity field"
+msgstr ""
+
+#: admin/product.php:31
+msgid "Enable calculator"
+msgstr ""
+
+#: admin/popup.php:23
+msgid "Enable delivery location in popup"
+msgstr ""
+
+#: admin/basic.php:39
+msgid "Enabled"
+msgstr ""
+
+#: admin/estimate-setting.php:21 admin/estimate-setting.php:55
+#: admin/free-estimate-setting.php:54
+msgid "Estimate date"
+msgstr ""
+
+#: pisol-product-page-shipping-calculator-woocommerce.php:94
+msgid "GIVE SUGGESTION"
+msgstr ""
+
+#: admin/plugins.php:56
+msgid "GIVE SUGGESTIONS"
+msgstr ""
+
+#: admin/popup.php:41
+msgid "Horizontal layout"
+msgstr ""
+
+#: admin/estimate-setting.php:30 admin/free-estimate-setting.php:29
+msgid ""
+"It will only update  the location selected and will not show the shipping "
+"method for the selected location (If you are using our estimate plugin then "
+"it will update the estimate date as well)"
+msgstr ""
+
+#: admin/free-estimate-setting.php:31
+msgid ""
+"It will show the estimate date for each of the shipping method:<br> Product "
+"estimate date=> estimate will be based on this particular product (useful "
+"when you ship item separately)<br>Cart estimate date => estimate will be "
+"based on all the product in cart (useful when you ship item in order "
+"together)"
+msgstr ""
+
+#: admin/estimate-setting.php:32
+msgid ""
+"It will show the estimate date for each of the shipping method:<br> Product "
+"estimate=> estimate will be based on this particular product (useful when "
+"you ship item separately)<br>Cart estimate => estimate will be based on all "
+"the product in cart (useful when you ship item in order together)"
+msgstr ""
+
+#: admin/design.php:40 admin/design.php:42 admin/design.php:44
+#: admin/design.php:46
+msgid "Leave blank and it will follow your theme button color"
+msgstr ""
+
+#: admin/popup.php:29
+msgid "Left Center"
+msgstr ""
+
+#: admin/basic.php:55
+msgid "Message shown above the available shipping method list"
+msgstr ""
+
+#: admin/basic.php:57
+msgid "Message shown when no method available"
+msgstr ""
+
+#: admin/basic.php:59
+msgid "Message shown when no variation selected"
+msgstr ""
+
+#: admin/basic.php:48
+msgid "Message shown when user has not yet added address in form"
+msgstr ""
+
+#: admin/basic.php:35
+msgid "Open by default"
+msgstr ""
+
+#. Author of the plugin
+msgid "PI Websolution"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "piwebsolution.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "piwebsolution.com/woocommerce-shipping-calculator"
+msgstr ""
+
+#: pisol-product-page-shipping-calculator-woocommerce.php:39
+msgid ""
+"Please Install and Activate WooCommerce plugin, without that this plugin "
+"cant work"
+msgstr ""
+
+#: admin/popup.php:39 admin/popup.php:72
+msgid "Popup"
+msgstr ""
+
+#: admin/popup.php:27
+msgid "Popup button"
+msgstr ""
+
+#: admin/popup.php:47
+msgid "Popup header background color"
+msgstr ""
+
+#: admin/popup.php:49
+msgid "Popup header text color"
+msgstr ""
+
+#: admin/popup.php:41
+msgid "Popup layout"
+msgstr ""
+
+#: admin/popup.php:43
+msgid "Popup title"
+msgstr ""
+
+#: admin/basic.php:28
+msgid "Position"
+msgstr ""
+
+#: admin/basic.php:30
+msgid "Position of the calculator on product page"
+msgstr ""
+
+#: admin/basic.php:30
+msgid "Position of the calculator on the single product page"
+msgstr ""
+
+#: admin/basic.php:32
+msgid "Position of the calculator result"
+msgstr ""
+
+#: admin/basic.php:33
+msgid "Position of the shipping calculation result"
+msgstr ""
+
+#: admin/estimate-setting.php:32 admin/free-estimate-setting.php:31
+msgid "Product estimate"
+msgstr ""
+
+#. Name of the plugin
+#. Description of the plugin
+msgid "Product page shipping calculator for WooCommerce"
+msgstr ""
+
+#: admin/basic.php:43
+msgid "Product Quantity field"
+msgstr ""
+
+#: admin/plugins.php:50
+msgid "Related Plugins"
+msgstr ""
+
+#: admin/remove-fields.php:39
+msgid ""
+"Remove address form fields from address form (popup)<br><small>Warning: If "
+"your shipping zone are based on the field then do not disable it else plugin "
+"will not be able to select the zone and show the shipping method</small>"
+msgstr ""
+
+#: admin/remove-fields.php:28
+msgid ""
+"Remove address form fields from product page calculator<br><small>Warning: "
+"If your shipping zone are based on the field then do not disable it else "
+"plugin will not be able to select the zone and show the shipping "
+"method</small>"
+msgstr ""
+
+#: admin/remove-fields.php:34 admin/remove-fields.php:45
+msgid "Remove city field"
+msgstr ""
+
+#: admin/remove-fields.php:30 admin/remove-fields.php:41
+msgid "Remove country field"
+msgstr ""
+
+#: admin/remove-fields.php:30 admin/remove-fields.php:41
+msgid ""
+"Remove country field if your shipping zone are not dependent on the zone or "
+"you only ship to single country"
+msgstr ""
+
+#: admin/remove-fields.php:21
+msgid "Remove fields"
+msgstr ""
+
+#: admin/remove-fields.php:36 admin/remove-fields.php:47
+msgid "Remove Postcode/Zip field"
+msgstr ""
+
+#: admin/remove-fields.php:36 admin/remove-fields.php:47
+msgid ""
+"Remove Postcode/Zip field if your shipping zone are not dependent on the "
+"postcode"
+msgstr ""
+
+#: admin/remove-fields.php:32 admin/remove-fields.php:43
+msgid "Remove state field"
+msgstr ""
+
+#: admin/remove-fields.php:32 admin/remove-fields.php:43
+msgid "Remove state field if your shipping zone are not dependent on the zone"
+msgstr ""
+
+#: admin/remove-fields.php:34 admin/remove-fields.php:45
+msgid "Remove Town/City field"
+msgstr ""
+
+#: admin/popup.php:29
+msgid "Right Center"
+msgstr ""
+
+#: admin/popup.php:89
+msgid "Save Changes"
+msgstr ""
+
+#: admin/basic.php:99 admin/design.php:84 admin/estimate-setting.php:72
+#: admin/remove-fields.php:85
+msgid "Save Option"
+msgstr ""
+
+#: admin/product.php:29
+msgid "Select option"
+msgstr ""
+
+#: pisol-product-page-shipping-calculator-woocommerce.php:93
+msgid "Settings"
+msgstr ""
+
+#: admin/basic.php:35
+msgid "Shipping calculator form default state"
+msgstr ""
+
+#: admin/estimate-setting.php:32 admin/free-estimate-setting.php:31
+msgid "Shipping method estimate as per"
+msgstr ""
+
+#: admin/estimate-setting.php:28 admin/free-estimate-setting.php:27
+msgid "Show estimate date for each shipping methods on product page"
+msgstr ""
+
+#: admin/popup.php:25
+msgid "Show if shipping is available based and also show shipping methods"
+msgstr ""
+
+#: admin/popup.php:25
+msgid "Show if shipping is available based on the shipping zone"
+msgstr ""
+
+#: admin/basic.php:41
+msgid "Show shipping as per the quantity field"
+msgstr ""
+
+#: admin/design.php:32
+msgid "Text color of message"
+msgstr ""
+
+#: admin/design.php:36
+msgid "Text color of shipping charges"
+msgstr ""
+
+#: admin/design.php:34
+msgid "Text color of shipping methods name"
+msgstr ""
+
+#: admin/design.php:32
+msgid "Text color of the resulting text"
+msgstr ""
+
+#: admin/design.php:34
+msgid "Text color of the shipping method name"
+msgstr ""
+
+#: admin/design.php:36
+msgid "Text color of the shipping method price"
+msgstr ""
+
+#: admin/popup.php:31
+msgid "Text shown inside the button"
+msgstr ""
+
+#: admin/basic.php:59
+msgid "This is used on variable product when no variation is selected"
+msgstr ""
+
+#: admin/basic.php:50
+msgid ""
+"This message will be shown inside calculate shipping button that will open "
+"the form"
+msgstr ""
+
+#: admin/popup.php:23
+msgid ""
+"This will add a button to your website clicking on which opens a popup to "
+"insert the delivery location"
+msgstr ""
+
+#: admin/estimate-setting.php:28 admin/free-estimate-setting.php:27
+msgid "This will show the estimate date below each of the shipping method"
+msgstr ""
+
+#: admin/popup.php:29
+msgid "Top Left"
+msgstr ""
+
+#: admin/popup.php:29
+msgid "Top Right"
+msgstr ""
+
+#: public/class-address-form-shortcode.php:9
+msgid "Update Address"
+msgstr ""
+
+#: admin/popup.php:45
+msgid "Update address button"
+msgstr ""
+
+#: admin/design.php:44
+msgid "Update address button background color"
+msgstr ""
+
+#: admin/design.php:46
+msgid "Update address button text color"
+msgstr ""
+
+#: admin/popup.php:25
+msgid "Use for getting location"
+msgstr ""
+
+#: admin/popup.php:41
+msgid "Vertical layout"
+msgstr ""
+
+#: public/class-address-form.php:60
+msgid "We do not provide shipping to this location"
+msgstr ""
+
+#: public/class-address-form.php:64
+msgid "We provide shipping to your location"
+msgstr ""
+
+#: admin/popup.php:25
+msgid "Working of popup"
+msgstr ""
+
+#: admin/product.php:27
+msgid "You can disable shipping calculation for this product"
+msgstr ""
+
+#: public/class-address-form.php:47
+msgid "Your details are saved"
+msgstr ""
