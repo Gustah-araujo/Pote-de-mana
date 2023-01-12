@@ -1,0 +1,12 @@
+<wpml-config>
+    <admin-texts>
+        <key name="pi_ppscw_open_drawer_button_text"/>
+        <key name="pi_ppscw_update_button_text"/>
+        <key name="pi_ppscw_above_shipping_methods"/>
+        <key name="pi_ppscw_no_shipping_methods_msg"/>
+        <key name="pi_ppscw_no_address_added_yet"/>
+        <key name="pi_ppscw_popup_title"/>
+        <key name="pi_ppscw_badge_text"/>
+        <key name="pi_ppscw_popup_update_address_title"/>
+    </admin-texts>
+</wpml-config>

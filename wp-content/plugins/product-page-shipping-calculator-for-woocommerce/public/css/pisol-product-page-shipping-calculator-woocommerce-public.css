@@ -1,0 +1,72 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.pisol-ppscw-container {
+    clear: both;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pisol-ppscw-alert {
+    display: block;
+    margin: 10px 0px;
+    background: #ccc;
+    border-radius: 3px;
+    color: #000;
+    padding: 10px 7px;
+}
+
+.pisol-shipping-calculator-form {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.pisol-shipping-calculator-form .form-row input,
+.pisol-shipping-calculator-form .form-row select {
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.pisol-shipping-calculator-form .button {
+    margin-bottom: 20px;
+}
+
+.pisol-shipping-calculator-form input[type="text"],
+.pisol-shipping-calculator-form select {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 7px;
+}
+
+.pisol-ppscw-methods {
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+    padding: 0px !important;
+    margin-left: 0px !important;
+}
+
+.pisol-ppscw-methods li {
+    margin-left: 25px;
+}
+
+#pisol-ppscw-error .woocommerce-error,
+#pisol-ppscw-error .woocommerce-info,
+#pisol-ppscw-error .woocommerce-message {
+    margin-bottom: 5px;
+}
+
+body.pisol-processing .pisol-ppscw-container {
+    opacity: 0.4;
+}
+
+#pisol-ppscw-alert-container {
+    display: inline-block;
+}
+
+.pisol-ppscw-alert:empty,
+#pisol-ppscw-other-messages:empty {
+    display: none;
+}
