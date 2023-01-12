@@ -3,6 +3,11 @@
 
     add_action('wp_enqueue_scripts', 'pote_enqueue_scripts');
     add_action('wp_enqueue_scripts', 'pote_dequeue_scripts', 9999);
+    
+    add_filter('woocommerce_account_menu_items', 'remove_downloads_from_my_account', 10, 2);
+
+
+
 
     function pote_enqueue_scripts() {
 
@@ -62,6 +67,14 @@
            return $item;
         }
      }
+
+    function remove_downloads_from_my_account($items, $endpoints) {
+        if( isset( $items['downloads'] ) ) {
+            unset( $items['downloads'] );
+        }
+
+        return $items;
+    }
 
 
 ?>
