@@ -22,8 +22,10 @@ a {
 
 .h14-navbar,
 .h14-navbar .navbar .dropdown-menu,
-.h14-infobar {
-    background: var(--dark-blue);
+.h14-infobar,
+.woocommerce #payment #place_order, 
+.woocommerce-page #payment #place_order {
+    background: var(--dark-blue) !important;
 }
 
 .h14-navbar .navbar .navbar-nav .search .nav-link {
@@ -187,4 +189,19 @@ a.added_to_cart.wc-forward {
 .woocommerce-input-wrapper input, .woocommerce-input-wrapper select, .woocommerce-Input {
     padding: 10px 5px;
     border: #DDD solid 1px;
+}
+
+.woocommerce-orders-table__cell-order-actions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.woocommerce-orders-table__cell-order-actions a {
+    margin: 5px !important;
+}
+
+/* Footer Section */
+
+.sapid-footer {
+    background-color: #CCC;
 }
