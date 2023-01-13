@@ -188,3 +188,8 @@ a.added_to_cart.wc-forward {
     padding: 10px 5px;
     border: #DDD solid 1px;
 }
+/* Footer Section */
+
+.sapid-footer {
+    background-color: #CCC;
+}

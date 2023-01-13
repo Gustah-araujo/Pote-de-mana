@@ -3,10 +3,17 @@
 
     add_action('wp_enqueue_scripts', 'pote_enqueue_scripts');
     add_action('wp_enqueue_scripts', 'pote_dequeue_scripts', 9999);
+    add_action( 'after_setup_theme', 'sapid_child_register_nav_menu', 0 );
     
     add_filter('woocommerce_account_menu_items', 'remove_downloads_from_my_account', 10, 2);
 
 
+    function sapid_child_register_nav_menu(){
+        register_nav_menus( array(
+            'footer_nav_menu_left' => __( 'Footer Nav menu Left', 'text_domain' ),
+            'footer_nav_menu_right'  => __( 'Footer Nav menu Right', 'text_domain' ),
+        ) );
+    }
 
 
     function pote_enqueue_scripts() {
@@ -66,7 +73,7 @@
            $item .= '</div></li></ul></li>';
            return $item;
         }
-     }
+    }
 
     function remove_downloads_from_my_account($items, $endpoints) {
         if( isset( $items['downloads'] ) ) {
