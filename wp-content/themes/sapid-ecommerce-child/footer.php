@@ -2,23 +2,23 @@
 			    </main><!-- #main -->
 				<?php do_action( 'sapid_before_footer' ); ?>
 				
-				<div class="sapid-footer row px-3 py-5">
+				<div class="sapid-footer row px-3 py-2">
 					
-					<div class="d-flex align-items-center col-6 px-4">
+					<div class="d-flex align-items-center col-sm-6 col-12 px-4">
 						<p class="my-1">Copyright @ - <?php echo date("Y") ?> Pote de Mana. Todos os direitos reservados.</p>
 					</div>
 
-					<div class="col-3 px-4">
+					<!-- <div class="col-sm-3 col-12 px-4">
 						<?php wp_nav_menu( [
 							'theme_location' => 'footer_nav_menu_left'
 						] ) ?>
 					</div>
 
-					<div class="col-3 px-4">
+					<div class="col-sm-3 col-12 px-4">
 						<?php wp_nav_menu( [
 							'theme_location' => 'footer_nav_menu_right'
 						] ) ?>
-					</div>
+					</div> -->
 
 				</div>
 

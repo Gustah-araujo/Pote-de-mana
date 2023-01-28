@@ -75,7 +75,7 @@ a {
 
     .menu-mini-cart {
         position: absolute !important;
-        top: 5px;
+        top: 15px;
         right: 5px;
         width: inherit !important;
     }
