@@ -8,6 +8,19 @@
     add_filter('woocommerce_account_menu_items', 'remove_downloads_from_my_account', 10, 2);
 
 
+    add_action( 'woocommerce_new_order', 'send_new_order_email',  1, 2  );
+    function send_new_order_email($order_id, $order) {
+        
+        if ( $order->get_payment_method() == 'woo-mercado-pago-ticket' ) {
+            $order_id = $order->get_id();
+            $allmails = WC()->mailer()->emails;
+    
+            $allmails['WC_Email_Customer_Processing_Order']->trigger( $order_id );
+            $allmails['WC_Email_New_Order']->trigger( $order_id );
+        }
+
+    }
+
     function sapid_child_register_nav_menu(){
         register_nav_menus( array(
             'footer_nav_menu_left' => __( 'Footer Nav menu Left', 'text_domain' ),

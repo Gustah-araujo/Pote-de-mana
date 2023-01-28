@@ -20,6 +20,11 @@ a {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
+/* Hiding the lower portion of the header for now */
+.h14-navbar {
+    display: none !important;
+}
+
 .h14-navbar,
 .h14-navbar .navbar .dropdown-menu,
 .h14-infobar,
@@ -70,7 +75,7 @@ a {
 
     .menu-mini-cart {
         position: absolute !important;
-        top: 5px;
+        top: 15px;
         right: 5px;
         width: inherit !important;
     }
